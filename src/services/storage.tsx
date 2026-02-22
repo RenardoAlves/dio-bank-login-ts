@@ -1,9 +1,11 @@
 interface IDIoBank {
     login: boolean;
+    password: boolean;
 }
 
 const dioBank = {
-    login: false
+    login: false,
+    password: false
 }
 
 export const getAllLocalStorage = (): string | null  => {
