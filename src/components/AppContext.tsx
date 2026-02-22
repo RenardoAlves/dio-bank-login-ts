@@ -22,7 +22,6 @@ export const AppContextProvider = ({ children }: any) => {
     }, [])
 
     const user = 'nathally'
-    const id = 1
   
     return (
       <AppContext.Provider value={{ user, isLoggedIn, setIsLoggedIn }}>

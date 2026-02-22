@@ -4,7 +4,6 @@ import CardInfo from "../components/CardInfo"
 import { api } from "../api"
 import { useContext, useEffect, useState } from "react"
 import { AppContext } from "../components/AppContext"
-import { start } from "repl"
 
 interface UserData {
     email: string
